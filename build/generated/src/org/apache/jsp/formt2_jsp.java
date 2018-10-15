@@ -63,30 +63,30 @@ public final class formt2_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>  \n");
-      out.write("    </head>\n");
-      out.write("    \n");
-      out.write("    <body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("    <head>\r\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("        <title>JSP Page</title>  \r\n");
+      out.write("    </head>\r\n");
+      out.write("    \r\n");
+      out.write("    <body>\r\n");
       out.write("        <h2>");
       if (_jspx_meth_bean_message_0(_jspx_page_context))
         return;
-      out.write("</h2>\n");
+      out.write("</h2>\r\n");
       out.write("        ");
       if (_jspx_meth_html_form_0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("    </body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -130,190 +130,190 @@ public final class formt2_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_html_form_0 = _jspx_th_html_form_0.doStartTag();
     if (_jspx_eval_html_form_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("            <table>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("            <table>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                   <!-- <td>html:select value=\"0\"/></td>-->\n");
+        out.write("</td>\r\n");
+        out.write("                   <!-- <td>html:select value=\"0\"/></td>-->\r\n");
         out.write("                   <td>");
         if (_jspx_meth_html_errors_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                       ");
         if (_jspx_meth_html_errors_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("                   </td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("                   </td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_errors_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                        ");
         if (_jspx_meth_html_errors_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("                    </td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("                    </td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_errors_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                        ");
         if (_jspx_meth_html_errors_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("                    </td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("                    </td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_errors_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                        ");
         if (_jspx_meth_html_errors_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("                    </td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("                    </td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_errors_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_errors_9((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                        ");
         if (_jspx_meth_html_errors_10((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("                    </td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("\r\n");
+        out.write("                    </td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td><!--html:text property=\"domicilio\"/>--></td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td><!--html:text property=\"domicilio\"/>--></td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_9((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_10((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_11((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_9((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_bean_message_12((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
+        out.write("</td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_text_10((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                    <td></td>\n");
-        out.write("                </tr>\n");
-        out.write("                <tr>\n");
-        out.write("                    <td></td>\n");
+        out.write("</td>\r\n");
+        out.write("                    <td></td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                <tr>\r\n");
+        out.write("                    <td></td>\r\n");
         out.write("                    <td>");
         if (_jspx_meth_html_submit_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_html_form_0, _jspx_page_context))
           return true;
-        out.write("</td>\n");
-        out.write("                </tr>\n");
-        out.write("                \n");
-        out.write("            </table>    \n");
+        out.write("</td>\r\n");
+        out.write("                </tr>\r\n");
+        out.write("                \r\n");
+        out.write("            </table>    \r\n");
         out.write("        ");
         int evalDoAfterBody = _jspx_th_html_form_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

@@ -156,7 +156,7 @@ public class empleadoActionForm extends org.apache.struts.action.ActionForm {
 
     public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
         
-        String nombrevalidar = "[a-zA-Z ]";
+        String nombrevalidar = "^[a-zñ]+[a-zñ\\s]+[a-zñ]$";
         ActionErrors errors = new ActionErrors();
         
         if (getDnix().equals("")){
@@ -172,6 +172,7 @@ public class empleadoActionForm extends org.apache.struts.action.ActionForm {
         }else {
             if(Pattern.matches(nombrevalidar,getNombresx()) != true ){
                 System.out.println(Pattern.matches(nombrevalidar,getNombresx()));
+                System.out.println("HOAS");
                 errors.add("nombrenoalfabetico", new ActionMessage("empleado.nombrenoalfabetico"));
             }
         }
